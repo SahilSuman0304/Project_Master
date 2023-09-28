@@ -8,7 +8,6 @@ function PriceInput({
   price,
   setFilteredProducts,
   productsData,
-  filterdProducts,
   allSelectedValues,
   setAllSelectedValues,
 }) {
@@ -19,8 +18,6 @@ function PriceInput({
   const [minValue, setMinValue] = useState(Number(min));
   const [maxValue, setMaxValue] = useState(Number(max));
   const [priceSelected, setPriceSelected] = useState("");
-
-  useEffect(() => {}, [filterdProducts]);
 
   useEffect(() => {
     const currentPriceRange = priceSelected;
@@ -43,6 +40,7 @@ function PriceInput({
       const nonPriceValues = prevOptions.filter(
         (option) => !(option.includes("$") && option.includes("-"))
       );
+
       return [...nonPriceValues, currentPriceSelected];
     });
 

@@ -28,7 +28,6 @@ function index({
                 allSelectedValues={allSelectedValues}
                 setFilteredProducts={setFilteredProducts}
                 productsData={productsData}
-                filterdProducts={filterdProducts}
               />
             </div>
             <div>

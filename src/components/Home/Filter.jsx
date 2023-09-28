@@ -7,11 +7,8 @@ function Filter({
   setAllSelectedValues,
   allSelectedValues,
   setFilteredProducts,
-  filterdProducts,
   productsData,
 }) {
-  console.log(filterSectionData);
-
   return (
     <div>
       <h1 className="filter-heading">Filters</h1>
@@ -31,7 +28,6 @@ function Filter({
           allSelectedValues={allSelectedValues}
           setFilteredProducts={setFilteredProducts}
           productsData={productsData}
-          filterdProducts={filterdProducts}
         />
         <div className="line">
           <hr style={{ color: "#efefef" }} />
