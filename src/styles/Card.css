@@ -1,0 +1,151 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 341px;
+  height: 587px;
+  position: relative;
+  overflow: hidden;
+}
+.discount-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.discount-arrow {
+  position: relative;
+  height: 130px;
+  width: 30px;
+}
+.discount-text {
+  white-space: nowrap;
+  position: absolute;
+  color: white;
+  left: 0.8rem;
+  top: 0.2rem;
+}
+.sale-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 30px;
+  width: 62px;
+  background-color: #82b8d9;
+}
+.sale {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  height: 29.5px;
+  color: #fff;
+  text-align: center;
+  padding-top: 2px;
+}
+.image-imageinfo-contaner {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+}
+.product-img {
+  width: 341px;
+  height: 493px;
+}
+.card-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-self: flex-start;
+}
+.title-text {
+  text-align: center;
+  color: black;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+.cut-price {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9rem;
+  color: black;
+}
+.old-price {
+  color: #939393;
+  text-decoration: line-through;
+}
+.price {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+@media (min-width: 400px) {
+  .card-container {
+    min-width: 186px;
+    height: 330px;
+  }
+  .product-img {
+    max-width: 222px;
+    max-height: 265px;
+  }
+  .title-text {
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+  .discount-arrow {
+    height: 82px;
+    width: 30px;
+  }
+}
+@media (min-width: 500px) {
+  .card-container {
+    height: 340px;
+    width: 190px;
+  }
+  .product-img {
+    max-height: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .card-container {
+    width: 275px;
+    height: 367px;
+  }
+  .product-img {
+    max-width: 279px;
+    max-height: 295px;
+  }
+}
+@media (min-width: 992px) {
+  .card-container {
+    width: 242px;
+    min-height: 421px;
+  }
+  .product-img {
+    width: 255px;
+    min-height: 354px;
+  }
+  .title-text {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  .price {
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+  .old-price {
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+}
+@media (min-width: 1280px) {
+  .card-container {
+    width: 245px;
+    min-height: 421px;
+  }
+  .product-img {
+    width: 247px;
+    min-height: 354px;
+  }
+}

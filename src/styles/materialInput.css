@@ -1,0 +1,38 @@
+.material-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.material-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+.material-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.material-inputs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.material-label {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.material-counts {
+  color: rgba(0, 0, 0, 0.3);
+}
+.material-show-container {
+  text-align: center;
+}
+.more-plus-minus {
+  font-size: 1.25rem;
+}

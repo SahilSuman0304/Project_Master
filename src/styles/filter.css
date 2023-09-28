@@ -1,0 +1,19 @@
+.filter-heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 1.5rem;
+}
+.line {
+  padding: 0 1rem;
+}
+.line hr {
+  opacity: 25%;
+}
+
+@media (min-width: 998px) {
+  .filter-heading {
+    text-align: left;
+  }
+}

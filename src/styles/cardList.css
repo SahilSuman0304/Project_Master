@@ -1,0 +1,45 @@
+.cardlist-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* xs */
+@media (min-width: 400px) {
+  .cardlist-container {
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* sm */
+@media (min-width: 500px) {
+  .cardlist-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+/* md */
+@media (min-width: 768px) {
+  .cardlist-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .cardlist-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .cardlist-container {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

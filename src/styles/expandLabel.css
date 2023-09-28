@@ -1,0 +1,16 @@
+.expand-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.expand-title {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.minus {
+  font-size: 2.25rem;
+}
+.plus {
+  font-size: 1.5rem;
+}
